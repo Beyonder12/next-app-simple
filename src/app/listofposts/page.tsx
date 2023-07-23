@@ -12,6 +12,7 @@ const getUsersData = async () => {
 }
 
 const getDogData = async () => {
+    //yowes
     const res = await fetch("https://dog.ceo/api/breeds/image/random", {
         // next : {
         //     revalidate : 10
